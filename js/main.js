@@ -98,4 +98,61 @@
       }
     });
   });
+
+  // generic trigger -> aria-controls panel toggle, exclusive within a group
+  // (opening one trigger closes every other trigger in the same group — same
+  // "only one open at a time" behaviour as the FAQ accordion above).
+  function wireAccordionGroup(triggers, getGroupKey, onClose){
+    var groups = {};
+    triggers.forEach(function(btn){
+      var key = getGroupKey(btn);
+      (groups[key] = groups[key] || []).push(btn);
+    });
+    Object.keys(groups).forEach(function(key){
+      var group = groups[key];
+      group.forEach(function(btn){
+        var panel = document.getElementById(btn.getAttribute('aria-controls'));
+        if (!panel) return;
+        btn.addEventListener('click', function(){
+          var wasOpen = panel.classList.contains('is-open');
+          group.forEach(function(other){
+            var p = document.getElementById(other.getAttribute('aria-controls'));
+            if (p && p.classList.contains('is-open')){
+              p.classList.remove('is-open');
+              other.setAttribute('aria-expanded', 'false');
+              if (onClose) onClose(other, p);
+            }
+          });
+          if (!wasOpen){
+            panel.classList.add('is-open');
+            btn.setAttribute('aria-expanded', 'true');
+            setTimeout(function(){ btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }, 250);
+          }
+        });
+      });
+    });
+  }
+
+  // categorie: all 6 exclusive with each other
+  wireAccordionGroup(
+    Array.prototype.slice.call(document.querySelectorAll('.category-card')),
+    function(){ return 'categorie'; },
+    function(closedBtn, closedPanel){
+      // collapsing a category also resets any brand it had left open inside it
+      closedPanel.querySelectorAll('.line-card[aria-expanded="true"]').forEach(function(lineBtn){
+        var lp = document.getElementById(lineBtn.getAttribute('aria-controls'));
+        if (lp) lp.classList.remove('is-open');
+        lineBtn.setAttribute('aria-expanded', 'false');
+      });
+    }
+  );
+
+  // marche (line-card): exclusive within their own category panel only
+  wireAccordionGroup(
+    Array.prototype.slice.call(document.querySelectorAll('.line-card')),
+    function(btn){
+      var catPanel = btn.closest('.cat-panel');
+      return catPanel ? catPanel.id : 'marche';
+    }
+  );
 })();

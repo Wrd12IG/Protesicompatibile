@@ -64,6 +64,7 @@
     </div>
     <div class="hero-scrim"></div>
     <div class="hero-inner">
+      <div class="hero-ghost-mark" aria-hidden="true">&plusmn;0,003</div>
       <div class="hero-body">
         <div class="hero-progress" id="hero-progress">
           <div class="seg" data-index="0"><span class="fill"></span></div>
@@ -71,7 +72,7 @@
           <div class="seg" data-index="2"><span class="fill"></span></div>
         </div>
         <h1>Componenti protesici compatibili, torniti a Milano con <em>tolleranze da strumento di precisione.</em></h1>
-        <p class="lead">Trent'anni di esperienza nella tornitura di titanio grado 5 per dispositivi implantari. Compatibili con Straumann®, Nobel Biocare®, Zimmer Biomet®, Sweden &amp; Martina® e le altre principali piattaforme.</p>
+        <p class="lead">Trent'anni di tornitura in titanio grado 5. Compatibili con Straumann®, Nobel Biocare®, Zimmer Biomet®, Sweden &amp; Martina® e le altre principali piattaforme.</p>
 
         <div class="finder">
           <div class="finder-label">
@@ -80,7 +81,7 @@
           </div>
           <div class="finder-row">
             <select aria-label="Marca impianto">
-              <option>Marca impianto — es. Straumann®</option>
+              <option>Marca impianto (es. Straumann®)</option>
               <option>Nobel Biocare®</option>
               <option>Zimmer Biomet®</option>
               <option>Sweden &amp; Martina®</option>
@@ -131,7 +132,7 @@
             <h4>Ti-Base conico non-rotante RC, GH 1.5 mm</h4>
             <div class="spec-list">
               <div class="row"><span>Connessione</span><span>RC &#8960; 4.1/4.8</span></div>
-              <div class="row"><span>Altezze GH</span><span>0.5–3.5 mm</span></div>
+              <div class="row"><span>Altezze GH</span><span>0.5-3.5 mm</span></div>
               <div class="row"><span>Torque</span><span class="num">35 N&middot;cm</span></div>
             </div>
           </div>
@@ -257,7 +258,7 @@
           <path d="M 190 96 A 54 54 0 0 1 244 150" fill="none" stroke="var(--titanium)" stroke-width="1.4" stroke-dasharray="4 4"/>
         </svg>
         <div style="margin-top:10px;">
-          <strong style="display:block; font-family:var(--font-display); font-size:.9rem;">Tornitura CNC — fantina mobile</strong>
+          <strong style="display:block; font-family:var(--font-display); font-size:.9rem;">Tornitura CNC a fantina mobile</strong>
           <span style="font-size:.78rem; color:var(--ink-faint);">Officina Titanium Component, Milano</span>
         </div>
       </div>
@@ -270,91 +271,832 @@
     <div class="wrap">
       <div class="section-head reveal">
         <div><h2>Sfoglia per categoria</h2></div>
+        <div class="meta">Scegli una categoria per vedere le linee implantari compatibili</div>
       </div>
       <div class="categories-grid reveal-stagger">
 
-        <div class="category-card">
+        <button class="category-card featured" aria-expanded="false" aria-controls="cat-panel-tibase">
           <div class="category-media">
-            <svg viewBox="0 0 140 110" width="100%" height="90">
-              <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
-              <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
-              <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
-            </svg>
+            <img src="images/cat-tibase.jpg" alt="Ti-Base compatibile, macro" loading="lazy" />
+            <span class="featured-badge">Categoria più richiesta</span>
           </div>
-          <h3>Ti-Base (Basi Titanio)</h3>
-          <p>Basi in titanio per corone singole avvitate o cementate, tutte le principali connessioni.</p>
-          <a href="#prodotti" class="btn btn-primary">Acquista</a>
+          <div class="category-copy">
+            <h3>Ti-Base (Basi Titanio)</h3>
+            <p>Basi in titanio per corone singole avvitate o cementate, tutte le principali connessioni. La categoria con più referenze a magazzino.</p>
+            <div class="category-foot">
+              <span class="category-cta">Vedi le linee compatibili</span>
+              <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </div>
+        </button>
+<div class="cat-panel" id="cat-panel-tibase">
+          <div class="cat-panel-inner">
+            <div class="brand-grid-nested">
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-tibase-straumann">
+          <span class="brand-plate">Straumann<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">142 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-tibase-nobel">
+          <span class="brand-plate">Nobel Biocare<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">188 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-tibase-zimmer">
+          <span class="brand-plate">Zimmer Biomet<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">96 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-tibase-straumann">
+          <div class="line-panel-inner">
+            <div class="line-products">
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Straumann® BL</span>
+                  <span class="product-stock">184 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-STR-RC-15</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base conico non-rotante RC, GH 1.5 mm</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>RC &#8960; 4.1/4.8</span></div>
+                    <div class="row"><span>Altezze GH</span><span>0.5-3.5 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 28,50</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Straumann® BLX</span>
+                  <span class="product-stock">96 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-STR-BLX-25</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base conico non-rotante BLX, GH 2.5 mm</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>BLX &#8960; 3.75/4.5</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.5-4.5 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 31,00</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Straumann® TL</span>
+                  <span class="product-stock">58 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-STR-TL-10</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base conico non-rotante TL, GH 1.0 mm</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>TL &#8960; 4.8</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.0-3.0 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 29,50</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="category-card">
+        <div class="line-panel" id="brand-panel-tibase-nobel">
+          <div class="line-panel-inner">
+            <div class="line-products">
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Nobel® Active</span>
+                  <span class="product-stock">115 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-NOB-ACT-NP</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Nobel Active® conica NP 3.5</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Conica NP &#8960; 3.5</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.0-3.0 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 28,50</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Nobel® Replace</span>
+                  <span class="product-stock">73 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-NOB-REP-RP</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Nobel Replace® RP 4.3</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Trilobata RP &#8960; 4.3</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.0-3.5 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 27,00</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-tibase-zimmer">
+          <div class="line-panel-inner">
+            <div class="line-products">
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Zimmer® SV</span>
+                  <span class="product-stock">64 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-ZIM-SV-35</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Zimmer Screw-Vent® 3.5</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Esagono interno &#8960; 3.5</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.0-3.0 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 26,50</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Zimmer® TSV</span>
+                  <span class="product-stock">32 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-ZIM-TSV-45</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Zimmer Tapered Screw-Vent® 4.5</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Esagono interno &#8960; 4.5</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.5-3.5 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 27,50</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-tibase-sweden">
+          <span class="brand-plate">Sweden &amp; Martina<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">164 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-tibase-astra">
+          <span class="brand-plate">Astra Tech<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">88 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-tibase-megagen">
+          <span class="brand-plate">Megagen<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">74 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-tibase-sweden">
+          <div class="line-panel-inner">
+            <div class="line-products">
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">S&amp;M® Prama</span>
+                  <span class="product-stock">41 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-SWM-PR-40</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Sweden &amp; Martina® Prama 4.0</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Cono Morse &#8960; 4.0</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.0-3.0 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 27,00</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">S&amp;M® Premium</span>
+                  <span class="product-stock">29 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-SWM-PM-35</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Sweden &amp; Martina® Premium 3.5</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Cono Morse &#8960; 3.5</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.0-2.5 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 26,00</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-tibase-astra">
+          <div class="line-panel-inner">
+            <div class="line-products">
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Astra Tech® EV</span>
+                  <span class="product-stock">37 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-AST-EV-40</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Astra Tech® EV 4.0</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Conica EV &#8960; 4.0</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.0-3.0 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 28,00</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Astra Tech® OsseoSpeed</span>
+                  <span class="product-stock">22 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-AST-OS-45</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Astra Tech® OsseoSpeed 4.5</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Conica OS &#8960; 4.5</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.5-3.5 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 29,00</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-tibase-megagen">
+          <div class="line-panel-inner">
+            <div class="line-products">
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Megagen® AnyRidge</span>
+                  <span class="product-stock">19 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-MEG-AR-40</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Megagen® AnyRidge 4.0</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Interna &#8960; 4.0</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.0-3.0 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 26,50</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-media">
+                  <span class="product-tag">Megagen® AnyOne</span>
+                  <span class="product-stock">15 pz</span>
+                  <svg viewBox="0 0 140 110" width="100%" height="100">
+                    <circle cx="70" cy="55" r="34" fill="none" stroke="var(--titanium)" stroke-width="1.2" stroke-dasharray="3 4"/>
+                    <circle cx="70" cy="55" r="20" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
+                    <circle cx="70" cy="55" r="5" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="1.2"/>
+                  </svg>
+                </div>
+                <div class="product-body">
+                  <div class="sku-row"><span>SKU TB-MEG-AO-45</span><span>CE 0425 IIb</span></div>
+                  <h4>Ti-Base Megagen® AnyOne 4.5</h4>
+                  <div class="spec-list">
+                    <div class="row"><span>Connessione</span><span>Interna &#8960; 4.5</span></div>
+                    <div class="row"><span>Altezze GH</span><span>1.5-3.5 mm</span></div>
+                  </div>
+                </div>
+                <div class="price-row">
+                  <div><span class="price-now num">€ 27,00</span></div>
+                  <button class="btn btn-primary">Configura</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+<button class="category-card" aria-expanded="false" aria-controls="cat-panel-scanbody">
           <div class="category-media">
-            <svg viewBox="0 0 140 110" width="100%" height="90">
-              <polygon points="70,22 100,40 100,72 70,90 40,72 40,40" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
-              <line x1="70" y1="22" x2="70" y2="90" stroke="var(--titanium)" stroke-width="1" stroke-dasharray="3 3"/>
-            </svg>
+            <img src="images/cat-scanbody.jpg" alt="Scan Body compatibile, macro" loading="lazy" />
           </div>
           <h3>Scan Body PEEK / Titanio</h3>
           <p>Rilevamento digitale antiriflesso, compatibile con scanner intraorali e da banco.</p>
-          <a href="#prodotti" class="btn btn-primary">Acquista</a>
-        </div>
-
-        <div class="category-card">
+          <div class="category-foot">
+            <span class="category-cta">Vedi le linee compatibili</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+<button class="category-card" aria-expanded="false" aria-controls="cat-panel-monconi">
           <div class="category-media">
-            <svg viewBox="0 0 140 110" width="100%" height="90">
-              <polygon points="55,25 85,25 92,55 60,90 40,90 34,55" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
-              <line x1="70" y1="25" x2="70" y2="10" stroke="var(--titanium)" stroke-width="2"/>
-            </svg>
+            <img src="images/cat-monconi.jpg" alt="Moncone compatibile, macro" loading="lazy" />
           </div>
           <h3>Monconi Dritti &amp; Angolati</h3>
-          <p>Monconi protesici in titanio o zirconia, dritti o angolati fino a 30°.</p>
-          <a href="#prodotti" class="btn btn-primary">Acquista</a>
+          <p>Monconi protesici in titanio o zirconia, dritti o angolati fino a 30&deg;.</p>
+          <div class="category-foot">
+            <span class="category-cta">Vedi le linee compatibili</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+<div class="cat-panel" id="cat-panel-scanbody">
+          <div class="cat-panel-inner">
+            <div class="brand-grid-nested">
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-scanbody-straumann">
+          <span class="brand-plate">Straumann<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">142 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-scanbody-nobel">
+          <span class="brand-plate">Nobel Biocare<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">188 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-scanbody-zimmer">
+          <span class="brand-plate">Zimmer Biomet<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">96 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-scanbody-straumann">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
         </div>
-
-        <div class="category-card">
+        <div class="line-panel" id="brand-panel-scanbody-nobel">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-scanbody-zimmer">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-scanbody-sweden">
+          <span class="brand-plate">Sweden &amp; Martina<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">164 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-scanbody-astra">
+          <span class="brand-plate">Astra Tech<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">88 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-scanbody-megagen">
+          <span class="brand-plate">Megagen<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">74 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-scanbody-sweden">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-scanbody-astra">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-scanbody-megagen">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+<div class="cat-panel" id="cat-panel-monconi">
+          <div class="cat-panel-inner">
+            <div class="brand-grid-nested">
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-monconi-straumann">
+          <span class="brand-plate">Straumann<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">142 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-monconi-nobel">
+          <span class="brand-plate">Nobel Biocare<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">188 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-monconi-zimmer">
+          <span class="brand-plate">Zimmer Biomet<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">96 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-monconi-straumann">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-monconi-nobel">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-monconi-zimmer">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-monconi-sweden">
+          <span class="brand-plate">Sweden &amp; Martina<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">164 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-monconi-astra">
+          <span class="brand-plate">Astra Tech<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">88 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-monconi-megagen">
+          <span class="brand-plate">Megagen<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">74 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-monconi-sweden">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-monconi-astra">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-monconi-megagen">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+<button class="category-card" aria-expanded="false" aria-controls="cat-panel-premilled">
           <div class="category-media">
-            <svg viewBox="0 0 140 110" width="100%" height="90">
-              <rect x="42" y="28" width="56" height="54" rx="4" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
-              <line x1="42" y1="40" x2="98" y2="40" stroke="var(--titanium)" stroke-width="1" stroke-dasharray="3 3"/>
-              <line x1="42" y1="70" x2="98" y2="70" stroke="var(--titanium)" stroke-width="1" stroke-dasharray="3 3"/>
-            </svg>
+            <img src="images/cat-premilled.jpg" alt="Pre-Milled Abutment, macro" loading="lazy" />
           </div>
           <h3>Pre-Milled Abutment</h3>
-          <p>Grezzi in titanio con connessione già rettificata, pronti per la fresatura CAD/CAM.</p>
-          <a href="#prodotti" class="btn btn-primary">Acquista</a>
-        </div>
-
-        <div class="category-card">
+          <p>Grezzi in titanio con connessione gi&agrave; rettificata, pronti per la fresatura CAD/CAM.</p>
+          <div class="category-foot">
+            <span class="category-cta">Vedi le linee compatibili</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+<button class="category-card" aria-expanded="false" aria-controls="cat-panel-viti">
           <div class="category-media">
-            <svg viewBox="0 0 140 110" width="100%" height="90">
-              <circle cx="70" cy="28" r="14" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
-              <line x1="70" y1="42" x2="70" y2="90" stroke="var(--titanium)" stroke-width="3"/>
-              <g stroke="var(--titanium)" stroke-width="1.4">
-                <line x1="63" y1="50" x2="77" y2="54"/>
-                <line x1="63" y1="60" x2="77" y2="64"/>
-                <line x1="63" y1="70" x2="77" y2="74"/>
-                <line x1="63" y1="80" x2="77" y2="84"/>
-              </g>
-            </svg>
+            <img src="images/cat-viti.jpg" alt="Vite clinica compatibile, macro" loading="lazy" />
           </div>
           <h3>Viti Cliniche &amp; Laboratorio</h3>
           <p>Viti di serraggio e da laboratorio compatibili con le principali piattaforme implantari.</p>
-          <a href="#prodotti" class="btn btn-primary">Acquista</a>
+          <div class="category-foot">
+            <span class="category-cta">Vedi le linee compatibili</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+<div class="cat-panel" id="cat-panel-premilled">
+          <div class="cat-panel-inner">
+            <div class="brand-grid-nested">
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-premilled-straumann">
+          <span class="brand-plate">Straumann<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">142 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-premilled-nobel">
+          <span class="brand-plate">Nobel Biocare<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">188 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-premilled-zimmer">
+          <span class="brand-plate">Zimmer Biomet<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">96 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-premilled-straumann">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
         </div>
-
-        <div class="category-card">
+        <div class="line-panel" id="brand-panel-premilled-nobel">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-premilled-zimmer">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-premilled-sweden">
+          <span class="brand-plate">Sweden &amp; Martina<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">164 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-premilled-astra">
+          <span class="brand-plate">Astra Tech<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">88 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-premilled-megagen">
+          <span class="brand-plate">Megagen<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">74 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-premilled-sweden">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-premilled-astra">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-premilled-megagen">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+<div class="cat-panel" id="cat-panel-viti">
+          <div class="cat-panel-inner">
+            <div class="brand-grid-nested">
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-viti-straumann">
+          <span class="brand-plate">Straumann<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">142 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-viti-nobel">
+          <span class="brand-plate">Nobel Biocare<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">188 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-viti-zimmer">
+          <span class="brand-plate">Zimmer Biomet<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">96 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-viti-straumann">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-viti-nobel">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-viti-zimmer">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-viti-sweden">
+          <span class="brand-plate">Sweden &amp; Martina<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">164 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-viti-astra">
+          <span class="brand-plate">Astra Tech<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">88 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-viti-megagen">
+          <span class="brand-plate">Megagen<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">74 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-viti-sweden">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-viti-astra">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-viti-megagen">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+<button class="category-card" aria-expanded="false" aria-controls="cat-panel-analoghi">
           <div class="category-media">
-            <svg viewBox="0 0 140 110" width="100%" height="90">
-              <ellipse cx="70" cy="35" rx="26" ry="9" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
-              <line x1="44" y1="35" x2="44" y2="75" stroke="var(--brand)" stroke-width="2"/>
-              <line x1="96" y1="35" x2="96" y2="75" stroke="var(--brand)" stroke-width="2"/>
-              <ellipse cx="70" cy="75" rx="26" ry="9" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="2"/>
-            </svg>
+            <img src="images/cat-analoghi.jpg" alt="Analogo digitale compatibile, macro" loading="lazy" />
           </div>
           <h3>Analoghi Digitali &amp; Gesso</h3>
           <p>Analoghi per modelli 3D e gesso, con fissaggio a vite bloccante.</p>
-          <a href="#prodotti" class="btn btn-primary">Acquista</a>
+          <div class="category-foot">
+            <span class="category-cta">Vedi le linee compatibili</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+<div class="cat-panel" id="cat-panel-analoghi">
+          <div class="cat-panel-inner">
+            <div class="brand-grid-nested">
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-analoghi-straumann">
+          <span class="brand-plate">Straumann<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">142 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-analoghi-nobel">
+          <span class="brand-plate">Nobel Biocare<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">188 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-analoghi-zimmer">
+          <span class="brand-plate">Zimmer Biomet<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">96 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-analoghi-straumann">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-analoghi-nobel">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-analoghi-zimmer">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-analoghi-sweden">
+          <span class="brand-plate">Sweden &amp; Martina<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">164 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-analoghi-astra">
+          <span class="brand-plate">Astra Tech<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">88 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="line-card" aria-expanded="false" aria-controls="brand-panel-analoghi-megagen">
+          <span class="brand-plate">Megagen<sup>&reg;</sup></span>
+          <span class="meta"><span class="count">74 prodotti</span></span>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="line-panel" id="brand-panel-analoghi-sweden">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-analoghi-astra">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+        <div class="line-panel" id="brand-panel-analoghi-megagen">
+          <div class="line-panel-inner">
+            <div class="line-placeholder">Elenco prodotti in arrivo per questa combinazione categoria&nbsp;&times;&nbsp;marca.</div>
+          </div>
+        </div>
+            </div>
+          </div>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- CERCA PER MARCA -->
+  <section id="marche">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div><h2>Cerca per marca</h2></div>
+        <div class="meta">Seleziona la linea implantare del tuo caso</div>
+      </div>
+      <p class="marche-note">Esempio con codice sigla linea, da confermare con la nomenclatura interna reale. Modello ispirato all'indice compatibilità che ci avete mandato.</p>
+      <div class="serie-index reveal-stagger">
+          <a href="#categorie" class="serie-card" style="--c1:#1b3a6b; --c2:#2c4f8a;">
+            <span class="serie-ghost">BL</span>
+            <span class="serie-compat">Compatibile</span>
+            <span class="serie-name"><span class="serie-code-inline">BL</span>Straumann<sup>®</sup> Bone Level</span>
+            <svg class="serie-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#categorie" class="serie-card" style="--c1:#142c52; --c2:#1f3d6e;">
+            <span class="serie-ghost">NA</span>
+            <span class="serie-compat">Compatibile</span>
+            <span class="serie-name"><span class="serie-code-inline">NA</span>Nobel Biocare<sup>®</sup> Active</span>
+            <svg class="serie-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#categorie" class="serie-card" style="--c1:#2c4a7a; --c2:#3d5f96;">
+            <span class="serie-ghost">SV</span>
+            <span class="serie-compat">Compatibile</span>
+            <span class="serie-name"><span class="serie-code-inline">SV</span>Zimmer Biomet<sup>®</sup> Screw-Vent</span>
+            <svg class="serie-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#categorie" class="serie-card" style="--c1:#9c7a34; --c2:#b8924a;">
+            <span class="serie-ghost">PK</span>
+            <span class="serie-compat">Compatibile</span>
+            <span class="serie-name"><span class="serie-code-inline">PK</span>Sweden &amp; Martina<sup>®</sup> Premium Kohno</span>
+            <svg class="serie-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#categorie" class="serie-card" style="--c1:#4a5563; --c2:#5f6b7a;">
+            <span class="serie-ghost">EV</span>
+            <span class="serie-compat">Compatibile</span>
+            <span class="serie-name"><span class="serie-code-inline">EV</span>Astra Tech<sup>®</sup> EV</span>
+            <svg class="serie-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#categorie" class="serie-card" style="--c1:#0f1b33; --c2:#1c2d4d;">
+            <span class="serie-ghost">AR</span>
+            <span class="serie-compat">Compatibile</span>
+            <span class="serie-name"><span class="serie-code-inline">AR</span>Megagen<sup>®</sup> AnyRidge</span>
+            <svg class="serie-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
       </div>
     </div>
   </section>
@@ -438,24 +1180,52 @@
         <h2>Nessun costo di licenza. File aperti per il tuo software.</h2>
         <p class="ink-soft" style="margin-top:14px; max-width:48ch;">Librerie digitali native, costantemente aggiornate, per modellare ponti, corone e strutture su tutti i nostri monconi e Ti-Base compatibili.</p>
         <div class="cad-note">Compatibilità verificata con <strong>Exocad Rijeka</strong>, <strong>3Shape Dental System</strong> e <strong>DentalWings DWOS</strong>.</div>
+        <div class="cad-note" style="margin-top:10px;">Scegli la linea implantare prima di scaricare: eviti di estrarre l'intera libreria per un solo componente.</div>
       </div>
-      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px;">
+      <div class="download-grid">
         <div class="download-card">
           <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
           <strong>Exocad®</strong>
-          <span>Librerie DentalCAD</span>
+          <span>Matematiche DentalCAD per linea</span>
+          <select class="dl-select" aria-label="Scegli la linea implantare per Exocad">
+            <option value="">Scegli la linea implantare...</option>
+            <option>Straumann® BL / BLX</option>
+            <option>Nobel Biocare® Active / Conical</option>
+            <option>Zimmer Biomet®</option>
+            <option>Sweden &amp; Martina®</option>
+            <option>Astra Tech®</option>
+            <option>Tutta la libreria (.zip completo)</option>
+          </select>
           <button class="btn btn-primary">Scarica</button>
         </div>
         <div class="download-card">
           <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
           <strong>3Shape®</strong>
-          <span>File Dental System</span>
+          <span>File Dental System per linea</span>
+          <select class="dl-select" aria-label="Scegli la linea implantare per 3Shape">
+            <option value="">Scegli la linea implantare...</option>
+            <option>Straumann® BL / BLX</option>
+            <option>Nobel Biocare® Active / Conical</option>
+            <option>Zimmer Biomet®</option>
+            <option>Sweden &amp; Martina®</option>
+            <option>Astra Tech®</option>
+            <option>Tutta la libreria (.zip completo)</option>
+          </select>
           <button class="btn btn-primary">Scarica</button>
         </div>
         <div class="download-card">
           <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
           <strong>DentalWings®</strong>
-          <span>Librerie DWOS</span>
+          <span>Librerie DWOS per linea</span>
+          <select class="dl-select" aria-label="Scegli la linea implantare per DentalWings">
+            <option value="">Scegli la linea implantare...</option>
+            <option>Straumann® BL / BLX</option>
+            <option>Nobel Biocare® Active / Conical</option>
+            <option>Zimmer Biomet®</option>
+            <option>Sweden &amp; Martina®</option>
+            <option>Astra Tech®</option>
+            <option>Tutta la libreria (.zip completo)</option>
+          </select>
           <button class="btn btn-primary">Scarica</button>
         </div>
       </div>
@@ -492,7 +1262,7 @@
           <div class="stat-tile"><span>Lotto minimo</span><strong>Flessibile per laboratori</strong></div>
           <div class="stat-tile"><span>Controllo qualità</span><strong>Rettifica micrometrica certificata</strong></div>
           <div class="stat-tile"><span>Marcatura</span><strong>Laser personalizzata</strong></div>
-          <div class="stat-tile"><span>Tempi di campionatura</span><strong>3–5 giorni lavorativi</strong></div>
+          <div class="stat-tile"><span>Tempi di campionatura</span><strong>3-5 giorni lavorativi</strong></div>
           <div class="stat-tile"><span>Materiali lavorati</span><strong>Titanio Gr.5 ELI, PEEK, Cr-Co</strong></div>
         </div>
       </div>
@@ -508,7 +1278,7 @@
         <h2>Parla con un tecnico specializzato</h2>
         <p style="color:var(--ink-soft); margin-top:12px;">Dubbi sulla compatibilità di una piattaforma o sulle librerie Exocad/3Shape? Il nostro team risponde direttamente dall'officina di Milano.</p>
         <div class="contact-info">
-          <div class="contact-row"><span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>Via Socrate, 26 — 20128 Milano (MI)</div>
+          <div class="contact-row"><span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>Via Socrate, 26, 20128 Milano (MI)</div>
           <div class="contact-row"><span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 3a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.2-1.3a2 2 0 0 1 2.1-.5c1 .3 2 .5 3 .7a2 2 0 0 1 1.7 2z"/></svg></span>Tel: 02 4140 8593 · Fax: 02 3651 4698</div>
           <div class="contact-row"><span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg></span>protesicacompatibile@gmail.com</div>
         </div>
@@ -598,7 +1368,7 @@
         <span>Protesica Compatibile</span>
       </div>
       <p class="desc">Produzione e vendita online di abutment, monconi e componenti compatibili per implantologia e chirurgia dentale.</p>
-      <address>Titanium Component S.r.l.<br/>Via Socrate, 26 — 20128 Milano (MI)<br/>P.IVA / C.F. IT 08316270966</address>
+      <address>Titanium Component S.r.l.<br/>Via Socrate, 26, 20128 Milano (MI)<br/>P.IVA / C.F. IT 08316270966</address>
     </div>
     <div>
       <h4>Famiglie implantari</h4>
@@ -622,7 +1392,7 @@
       <ul>
         <li>Tel: 02 4140 8593</li>
         <li>Email: protesicacompatibile@gmail.com</li>
-        <li>Lun–Ven 08:30–18:00</li>
+        <li>Lun-Ven 08:30-18:00</li>
       </ul>
     </div>
   </div>
@@ -635,7 +1405,7 @@
   </div>
 
   <div class="wrap legal-row">
-    <div>&copy; 2026 Titanium Component S.r.l. — Tutti i diritti riservati. I marchi citati appartengono ai rispettivi proprietari.</div>
+    <div>&copy; 2026 Titanium Component S.r.l. Tutti i diritti riservati. I marchi citati appartengono ai rispettivi proprietari.</div>
     <div class="links">
       <a href="#">Privacy Policy</a>
       <a href="#">Termini di vendita</a>
